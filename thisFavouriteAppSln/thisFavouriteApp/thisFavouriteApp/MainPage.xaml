@@ -3,8 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="thisFavouriteApp.MainPage">
 
-    <StackLayout>
-        <Label Text=" Spotify"  TextColor="LawnGreen" FontSize="24" FontAttributes="Bold"  Margin="15"/>
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Orientation="Horizontal" BackgroundColor="Black">
+            <Label Text=" Spotify"  TextColor="LawnGreen" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"/>
+
+            <Label Text=" Spotify"  TextColor="LawnGreen" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"/>
+
+        </StackLayout>
         
         <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
             <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
@@ -19,7 +24,7 @@
                     <Grid>
                         <StackLayout BackgroundColor="Black">
 
-                            <Image Source="music1.jpg" 
+                            <Image Source="Kanye2.jpeg" 
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
                             <Label Text="Kanye West" TextColor="White" FontSize="16"
@@ -58,7 +63,95 @@
                     <Grid>
                         <StackLayout BackgroundColor="Black">
 
-                            <Image Source="music2.jpg" 
+                            <Image Source="frank.jpeg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                            <Label Text="Frank Ocean" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,0,0,10.">
+                            <Label Text="Frank Ocean" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                            <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                <Image Source="music2.jpg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                <Label Text="Channel Orange" TextColor="White" FontSize="14">
+                                </Label>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Grid>
+
+                </Frame>
+
+
+
+
+                <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+               HasShadow="True" Margin="10" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                    <Grid>
+                        <StackLayout BackgroundColor="Black">
+
+                            <Image Source="music1.jpg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                            <Label Text="Nicki Minaj" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,0,0,10.">
+                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                            <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                <Image Source="frank.jpeg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                </Label>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Grid>
+
+                </Frame>
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+
+
+        <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+
+                <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+                Margin="10"
+               HasShadow="True" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                    <Grid>
+                        <StackLayout BackgroundColor="Black">
+
+                            <Image Source="Kanye2.jpeg" 
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
                             <Label Text="Kanye West" TextColor="White" FontSize="16"
@@ -88,6 +181,45 @@
 
 
 
+                <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+               HasShadow="True" Margin="10" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                    <Grid>
+                        <StackLayout BackgroundColor="Black">
+
+                            <Image Source="frank.jpeg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                            <Label Text="Frank Ocean" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,0,0,10.">
+                            <Label Text="Frank Ocean" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                            <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                <Image Source="music2.jpg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                <Label Text="Channel Orange" TextColor="White" FontSize="14">
+                                </Label>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Grid>
+
+                </Frame>
+
+
+
 
                 <Frame HeightRequest="240" WidthRequest="140"
                BackgroundColor="White"
@@ -101,7 +233,7 @@
                             <Image Source="music1.jpg" 
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
-                            <Label Text="Kanye West" TextColor="White" FontSize="16"
+                            <Label Text="Nicki Minaj" TextColor="White" FontSize="16"
                        FontAttributes="None"
                        VerticalOptions="EndAndExpand"/>
                         </StackLayout>
@@ -112,7 +244,7 @@
                            VerticalOptions="EndAndExpand"></Label>
 
                             <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
-                                <Image Source="music2.jpg"
+                                <Image Source="frank.jpeg"
                         HeightRequest="20"
                         Aspect="AspectFit"/>
 
@@ -132,7 +264,5 @@
             </StackLayout>
         </ScrollView>
     </StackLayout>
-
-
 
 </ContentPage>
