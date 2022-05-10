@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="thisFavouriteApp.MainPage">
+
+    <StackLayout>
+        <Label Text=" Spotify"  TextColor="LawnGreen" FontSize="24" FontAttributes="Bold"  Margin="15"/>
+        
+        <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+
+                <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+                Margin="10"
+               HasShadow="True" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                    <Grid>
+                        <StackLayout BackgroundColor="Black">
+
+                            <Image Source="music1.jpg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                            <Label Text="Kanye West" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,0,0,10.">
+                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                            <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                <Image Source="music2.jpg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                </Label>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Grid>
+
+                </Frame>
+
+
+
+                <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+               HasShadow="True" Margin="10" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                    <Grid>
+                        <StackLayout BackgroundColor="Black">
+
+                            <Image Source="music2.jpg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                            <Label Text="Kanye West" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,0,0,10.">
+                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                            <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                <Image Source="music2.jpg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                </Label>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Grid>
+
+                </Frame>
+
+
+
+
+                <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+               HasShadow="True" Margin="10" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                    <Grid>
+                        <StackLayout BackgroundColor="Black">
+
+                            <Image Source="music1.jpg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                            <Label Text="Kanye West" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,0,0,10.">
+                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                            <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                <Image Source="music2.jpg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                </Label>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Grid>
+
+                </Frame>
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+
+
+</ContentPage>
