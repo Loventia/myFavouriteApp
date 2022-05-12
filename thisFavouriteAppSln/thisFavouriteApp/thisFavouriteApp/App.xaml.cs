@@ -10,7 +10,10 @@ namespace thisFavouriteApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+           
+
+            MainPage =   new LandingFlyoutPage();
+
         }
 
         protected override void OnStart()

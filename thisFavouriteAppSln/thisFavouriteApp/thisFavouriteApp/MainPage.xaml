@@ -5,9 +5,12 @@
 
     <StackLayout BackgroundColor="Black">
         <StackLayout Orientation="Horizontal" BackgroundColor="Black">
-            <Label Text=" Spotify"  TextColor="LawnGreen" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"/>
+           
+            <StackLayout Orientation="Horizontal">
+                <Label Text="popular albums"  TextColor="Azure" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"/>
 
-            <Label Text=" Spotify"  TextColor="LawnGreen" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"/>
+            </StackLayout>
+            
 
         </StackLayout>
         
@@ -77,7 +80,7 @@
                            VerticalOptions="EndAndExpand"></Label>
 
                             <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
-                                <Image Source="music2.jpg"
+                                <Image Source="frank.jpeg"
                         HeightRequest="20"
                         Aspect="AspectFit"/>
 
@@ -91,7 +94,7 @@
 
                 </Frame>
 
-
+               
 
 
                 <Frame HeightRequest="240" WidthRequest="140"
@@ -103,25 +106,25 @@
                     <Grid>
                         <StackLayout BackgroundColor="Black">
 
-                            <Image Source="music1.jpg" 
+                            <Image Source="planet.png" 
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
-                            <Label Text="Nicki Minaj" TextColor="White" FontSize="16"
+                            <Label Text="Doja Cat" TextColor="White" FontSize="16"
                        FontAttributes="None"
                        VerticalOptions="EndAndExpand"/>
                         </StackLayout>
 
                         <StackLayout  Margin="0,0,0,10.">
-                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                            <Label Text="Doja Cat" TextColor="Azure" FontSize="16"
                           FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"></Label>
 
                             <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
-                                <Image Source="frank.jpeg"
+                                <Image Source="planet.png"
                         HeightRequest="20"
                         Aspect="AspectFit"/>
 
-                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                <Label Text="Planet her" TextColor="White" FontSize="14">
                                 </Label>
                             </StackLayout>
 
@@ -131,12 +134,16 @@
 
                 </Frame>
 
-
-
+                
 
             </StackLayout>
         </ScrollView>
 
+
+        <StackLayout Orientation="Vertical">
+            <Label Text="Recently played"  TextColor="Azure" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"/>
+
+        </StackLayout>
 
         <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
             <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
@@ -151,16 +158,16 @@
                     <Grid>
                         <StackLayout BackgroundColor="Black">
 
-                            <Image Source="Kanye2.jpeg" 
+                            <Image Source="Kali.jpeg" 
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
-                            <Label Text="Kanye West" TextColor="White" FontSize="16"
+                            <Label Text="Kali Uchis" TextColor="White" FontSize="16"
                        FontAttributes="None"
                        VerticalOptions="EndAndExpand"/>
                         </StackLayout>
 
                         <StackLayout  Margin="0,0,0,10.">
-                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                            <Label Text="Kali Uchis" TextColor="Azure" FontSize="16"
                           FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"></Label>
 
@@ -169,7 +176,7 @@
                         HeightRequest="20"
                         Aspect="AspectFit"/>
 
-                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                <Label Text="Know what I want" TextColor="White" FontSize="14">
                                 </Label>
                             </StackLayout>
 
@@ -190,25 +197,25 @@
                     <Grid>
                         <StackLayout BackgroundColor="Black">
 
-                            <Image Source="frank.jpeg" 
+                            <Image Source="dojasza.png"
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
-                            <Label Text="Frank Ocean" TextColor="White" FontSize="16"
+                            <Label Text="Doja cat" TextColor="White" FontSize="16"
                        FontAttributes="None"
                        VerticalOptions="EndAndExpand"/>
                         </StackLayout>
 
                         <StackLayout  Margin="0,0,0,10.">
-                            <Label Text="Frank Ocean" TextColor="Azure" FontSize="16"
+                            <Label Text="Doja cat" TextColor="Azure" FontSize="16"
                           FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"></Label>
 
                             <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
-                                <Image Source="music2.jpg"
+                                <Image Source="dojasza.png"
                         HeightRequest="20"
                         Aspect="AspectFit"/>
 
-                                <Label Text="Channel Orange" TextColor="White" FontSize="14">
+                                <Label Text="Kiss me more" TextColor="White" FontSize="14">
                                 </Label>
                             </StackLayout>
 
@@ -230,25 +237,26 @@
                     <Grid>
                         <StackLayout BackgroundColor="Black">
 
-                            <Image Source="music1.jpg" 
+                            <Image Source="Tems.jpg" 
                        HeightRequest ="350" 
                        Aspect= "AspectFill" />
-                            <Label Text="Nicki Minaj" TextColor="White" FontSize="16"
+                           <Label Text="Nicki Minaj" TextColor="White" FontSize="16"
                        FontAttributes="None"
                        VerticalOptions="EndAndExpand"/>
                         </StackLayout>
 
                         <StackLayout  Margin="0,0,0,10.">
-                            <Label Text="Kanye West" TextColor="Azure" FontSize="16"
+                            <Label Text="Tems" TextColor="Azure" FontSize="16"
                           FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"></Label>
-
+                             
                             <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                
                                 <Image Source="frank.jpeg"
                         HeightRequest="20"
                         Aspect="AspectFit"/>
 
-                                <Label Text="Donda" TextColor="White" FontSize="14">
+                                <Label Text="Free Mind" TextColor="White" FontSize="14">
                                 </Label>
                             </StackLayout>
 
