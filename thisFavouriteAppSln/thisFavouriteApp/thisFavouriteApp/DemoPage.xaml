@@ -4,9 +4,137 @@
              x:Class="thisFavouriteApp.DemoPage">
     <ContentPage.Content >
         <StackLayout BackgroundColor="Black">
-            <Label Text="Create a playlist" TextColor="White"
+            <Label Text="Your playlists" TextColor="White" FontSize="24" FontAttributes="Bold"  Margin="15" BackgroundColor="black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <ScrollView VerticalOptions="StartAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+
+                    <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+                Margin="10"
+               HasShadow="True" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                        <Grid>
+                            <StackLayout BackgroundColor="Black">
+
+                                <Image Source="playlist1.jpg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                                <Label Text="EDM" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout  Margin="0,0,0,10.">
+                                <Label Text="EDM" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                                <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                    <Image Source="playlist1.jpg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                    <Label Text="Donda" TextColor="White" FontSize="14">
+                                    </Label>
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </Grid>
+
+                    </Frame>
+
+
+
+                    <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+               HasShadow="True" Margin="10" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                        <Grid>
+                            <StackLayout BackgroundColor="Black">
+
+                                <Image Source="music1.jpg" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                                <Label Text="Deep house" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout  Margin="0,0,0,10.">
+                                <Label Text="Frank Ocean" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                                <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                    <Image Source="frank.jpeg"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                    <Label Text="Channel Orange" TextColor="White" FontSize="14">
+                                    </Label>
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </Grid>
+
+                    </Frame>
+
+
+
+
+                    <Frame HeightRequest="240" WidthRequest="140"
+               BackgroundColor="White"
+               HasShadow="True" Margin="10" CornerRadius="10"
+               HorizontalOptions="CenterAndExpand">
+
+
+                        <Grid>
+                            <StackLayout BackgroundColor="Black">
+
+                                <Image Source="planet.png" 
+                       HeightRequest ="350" 
+                       Aspect= "AspectFill" />
+                                <Label Text="Doja Cat" TextColor="White" FontSize="16"
+                       FontAttributes="None"
+                       VerticalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout  Margin="0,0,0,10.">
+                                <Label Text="Doja Cat" TextColor="Azure" FontSize="16"
+                          FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"></Label>
+
+                                <StackLayout Orientation="Horizontal" Margin="15,-8,0,0">
+                                    <Image Source="planet.png"
+                        HeightRequest="20"
+                        Aspect="AspectFit"/>
+
+                                    <Label Text="Planet her" TextColor="White" FontSize="14">
+                                    </Label>
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </Grid>
+
+                    </Frame>
+
+
+
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
+        
+        
+        
     </ContentPage.Content>
 </ContentPage>

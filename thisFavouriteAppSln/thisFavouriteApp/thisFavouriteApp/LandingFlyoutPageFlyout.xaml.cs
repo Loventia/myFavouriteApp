@@ -36,7 +36,7 @@ namespace thisFavouriteApp
                     new LandingFlyoutPageFlyoutMenuItem { Id = 0, Title = "Spotify",TargetType = typeof(MainPage), },
                     new LandingFlyoutPageFlyoutMenuItem { Id = 1, Title = "Create playlist", TargetType = typeof(DemoPage) },
                     new LandingFlyoutPageFlyoutMenuItem { Id = 2, Title = "Your Library" },
-                    new LandingFlyoutPageFlyoutMenuItem { Id = 3, Title = "liked songs" },
+                    new LandingFlyoutPageFlyoutMenuItem { Id = 3, Title = "liked songs" , TargetType= typeof(likedSongs) },
                     new LandingFlyoutPageFlyoutMenuItem { Id = 4, Title = "your episodes" },
                 });
             }

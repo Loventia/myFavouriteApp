@@ -6,8 +6,8 @@
   <FlyoutPage.Flyout>
         <pages:LandingFlyoutPageFlyout x:Name="FlyoutPage" BackgroundColor="Black" />
   </FlyoutPage.Flyout>
-  <FlyoutPage.Detail  >
-        <NavigationPage>
+  <FlyoutPage.Detail >
+        <NavigationPage BarBackgroundColor="#1DB954">
       <x:Arguments>
         <pages:MainPage />
       </x:Arguments>
